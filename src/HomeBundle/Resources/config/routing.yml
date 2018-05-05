@@ -1,0 +1,11 @@
+home_homepage:
+    path:     /
+    defaults: { _controller: HomeBundle:Default:index }
+
+about_alloservice:
+    path: /about
+    defaults: { _controller: HomeBundle:Default:about }
+
+service_alloservice:
+    path: /service
+    defaults: { _controller: HomeBundle:Default:service }
