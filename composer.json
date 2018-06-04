@@ -15,11 +15,14 @@
         "files": [ "vendor/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php" ]
     },
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=7.1.9",
         "doctrine/doctrine-bundle": "^1.6",
         "doctrine/orm": "^2.5",
         "friendsofsymfony/user-bundle": "2.1.2",
+        "hwi/oauth-bundle": "^0.6.2",
         "incenteev/composer-parameter-handler": "^2.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/httplug-bundle": "^1.10",
         "sensio/distribution-bundle": "^5.0.19",
         "sensio/framework-extra-bundle": "^5.0.0",
         "symfony/monolog-bundle": "^3.1.0",
@@ -50,7 +53,7 @@
     },
     "config": {
         "platform": {
-            "php": "5.5.9"
+            "php": "7.1.9"
         },
         "sort-packages": true
     },

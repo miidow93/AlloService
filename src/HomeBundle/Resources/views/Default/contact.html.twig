@@ -1,0 +1,146 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <!-- page title section area start -->
+    <section id="page_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-12">
+                    <div class="page_title text-center">
+                        <h2>Contact Us</h2>
+                        <img src="{{ asset('img/page-banner/title_border.png') }}" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- page title section area end -->
+
+    <!-- page bridecumb area start -->
+    <section id="bridecumb_area">
+        <div class="container">
+            <div class="row">
+                <h2 class="hide">hide</h2>
+                <div class="col-md-12 col-lg-12">
+                    <div class="bridecumb text-center">
+                        <a href="index-2.html">Home /<span> Contact Us</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </section>
+    <!-- page bridecumb area end  -->
+
+    <!-- contact us area start -->
+    <section id="contact_area">
+        <div class="container">
+            <div class="row">
+                <div class="detials">
+                    <div class="col-md-5">
+                        <div class="details_heading_contact">
+                            <h2>Drop us a Message</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer
+                            </p>
+                        </div>
+
+                        <div class="contact-social">
+                            <div class="col-md-2">
+                                <i class="flaticon-pin56"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="social_text">
+                                    <h2>ADDRESS</h2>
+                                    <p>Mirpur Bazar Road, Block-c, Dhaka-1210</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <div class="col-md-2">
+                                <i class="flaticon-telephone51"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="social_text">
+                                    <h2>PHONE</h2>
+                                    <p>(732) 803-01 03, (732) 806-01 04</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <div class="col-md-2 ">
+                                <i class="flaticon-messages8"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="social_text">
+                                    <h2>EMAIL</h2>
+                                    <p>smaple@gmail.com, otheremail@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="contact_img">
+                            <img src="img/page-contact/contact-img.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us area end -->
+    <!-- map area start -->
+    <section id="map_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5">
+                    <div class="gogle-map-heading">
+                        <h2>Our Location on Map</h2>
+                    </div>
+
+                    <div class="google-map" id="contact-google-map" data-map-lat="40.650002" data-map-lng="-73.949997" data-icon-path="img/resources/map-marker.png" data-map-title="Awesome Place" data-map-zoom="12"></div>
+                </div>
+                <div class="col-lg-7 col-md-7">
+
+                    <div class="comment_form">
+                        <form action="http://world5.commonsupport.com/html/lawner/inc/sendemail.php" class="contact-form">
+                            <h2>Send Message</h2>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact_details">
+                                    <input type="text" name="name" placeholder="Your Name"/>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact_details">
+                                    <input type="text" name="email" placeholder="Your Email"/>
+                                </div>
+                            </div>
+                            <div class="form_textarea_contact">
+                                <textarea  name="message"  cols="30" rows="15" placeholder="Your Massage"></textarea>
+                            </div>
+                            <button class="btn-info hvr-bounce-to-right contact_button" type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- map area end -->
+
+    <!-- prolance area start -->
+    <section id="prolance_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="prolance text-center">
+                        <h2>PRO LAWN CARE</h2>
+                        <h3>Premier Lawn Care And Landscaping Services</h3>
+                        <button class="btn btn-info prolancer_button">Get Started Today!!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- prolance area start -->
+{% endblock %}

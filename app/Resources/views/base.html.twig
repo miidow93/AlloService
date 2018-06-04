@@ -2,11 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <meta name="google-signin-client_id" content="298581946046-e6ku1asev33a6s8cvdc85hjstpop6vo0.apps.googleusercontent.com">
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}
-            <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-            <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
         {% endblock %}
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
 
@@ -75,7 +76,7 @@
                                         <li class=""><a href="/about">ABOUT US</a></li>
                                         <li><a href="/service">SERVICE<span class="caret"></span></a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="single-service.html">SINGLE SERVICE</a></li>
+                                                <li><a href="/single_service">SINGLE SERVICE</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="gallery-v1.html">GALLERIES<span class="caret"></span></a>
@@ -84,7 +85,7 @@
                                                 <li><a href="gallery-v2.html">GALLERY-V2</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="blog.html">BLOG<span class="caret"></span></a>
+                                        <li><a href="/blog">BLOG<span class="caret"></span></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="blogdeatils.html">blog Deatils</a></li>
                                             </ul>
@@ -97,7 +98,7 @@
                                                 <li><a href="faq.html">FAQ</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">CONTACT US</a></li>
+                                        <li><a href="/contact">CONTACT US</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -175,10 +176,10 @@
                         </div>
                         <div class="footer_menu_link">
                             <ul>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="faq.html">FAQs</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="about.html">About Lawner</a></li>
+                                <li><a href="/blog">Blog</a></li>
+                                <li><a href="/faq">FAQs</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
+                                <li><a href="/about">About Lawner</a></li>
                                 <li><a href="index-2.html">Plan & Price</a></li>
                             </ul>
                         </div>
@@ -235,26 +236,29 @@
         </div>
     </section>
     <!-- footer area start -->
-        {% block javascripts %}
-            <script src="{{ asset('js/jquery.min.js') }}"></script> <!-- jQuery JS -->
-            <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
-            <!-- bootstrap -->
-            <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-            <!-- MixIt UP JS -->
-            <script src="{{ asset('js/jquery.mixitup.min.js') }}"></script>
-            <!-- SmartMenus jQuery plugin -->
-            <script src="{{ asset('js/jquery.smartmenus.js') }}"></script>
-            <script src="{{ asset('js/jquery.smartmenus.bootstrap.js') }}"></script>
-            <!-- Revolution Slider Tools -->
-            <script src="{{ asset('js/revolution.min.js') }}"></script>
-            <!-- FancyBox -->
-            <script src="{{ asset('js/jquery.fancybox.pack.js') }}"></script>
-            <!-- video player -->
-            <script src="{{ asset('js/simplePlayer.js') }}"></script>
-            <!-- owlcarousel -->
-            <script src="{{ asset('js/owl.carousel.js') }}"></script>
-            <!-- my js -->
-            <script src="{{ asset('js/main.js') }}"></script>
-        {% endblock %}
+    {% block javascripts %}
+    {% endblock %}
+
+    <script src="{{ asset('js/jquery.min.js') }}"></script> <!-- jQuery JS -->
+    <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
+    <!-- bootstrap -->
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <!-- MixIt UP JS -->
+    <script src="{{ asset('js/jquery.mixitup.min.js') }}"></script>
+    <!-- SmartMenus jQuery plugin -->
+    <script src="{{ asset('js/jquery.smartmenus.js') }}"></script>
+    <script src="{{ asset('js/jquery.smartmenus.bootstrap.js') }}"></script>
+    <!-- Revolution Slider Tools -->
+    <script src="{{ asset('js/revolution.min.js') }}"></script>
+    <!-- FancyBox -->
+    <script src="{{ asset('js/jquery.fancybox.pack.js') }}"></script>
+    <!-- video player -->
+    <script src="{{ asset('js/simplePlayer.js') }}"></script>
+    <!-- owlcarousel -->
+    <script src="{{ asset('js/owl.carousel.js') }}"></script>
+    <!-- my js -->
+    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/facebook.js') }}"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     </body>
 </html>

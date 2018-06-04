@@ -6,6 +6,22 @@ about_alloservice:
     path: /about
     defaults: { _controller: HomeBundle:Default:about }
 
+blog_alloservice:
+    path: /blog
+    defaults: { _controller: HomeBundle:Default:blog }
+
 service_alloservice:
     path: /service
     defaults: { _controller: HomeBundle:Default:service }
+
+single_service_alloservice:
+    path: /single_service
+    defaults: { _controller: HomeBundle:Default:singleservice }
+
+contact_alloservice:
+    path: /contact
+    defaults: { _controller: HomeBundle:Default:contact }
+
+faq_alloservice:
+    path: /faq
+    defaults: { _controller: HomeBundle:Default:faq }

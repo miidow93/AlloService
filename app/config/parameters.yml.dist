@@ -17,3 +17,11 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret: ThisTokenIsNotSoSecretChangeIt
+
+    # Facebook API
+    facebook_app_id: 127110168150898
+    facebook_app_secret: 359b1558adfdcc1bb8c4b3413828c294
+
+    # Google API
+    google_app_id: 298581946046-e6ku1asev33a6s8cvdc85hjstpop6vo0.apps.googleusercontent.com
+    google_app_secret: 1bx9CcVuYPs9u5m1TcaPghEz
